@@ -36,7 +36,7 @@ class MenuScreen extends StatelessWidget {
               Navigator.pushNamed(context, 'cheese');
             },
             child: Card(
-              color: const Color.fromARGB(255, 229, 224, 249),
+              color: const Color.fromARGB(255, 234, 220, 248),
               child: ListTile(
                 leading: Image.asset(
                   'assets/images/cheesePizza.png',
