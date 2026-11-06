@@ -12,7 +12,7 @@ class MenuScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 230, 217, 255),
+        backgroundColor: const Color.fromARGB(255, 211, 150, 237),
         foregroundColor: const Color.fromARGB(255, 73, 54, 107),
         title: const Text('Pizza Store App'),
       ),
@@ -24,7 +24,7 @@ class MenuScreen extends StatelessWidget {
               Navigator.pushNamed(context, 'vegetable');
             },
             child: Card(
-              color: const Color.fromARGB(255, 248, 221, 235),
+              color: const Color.fromARGB(255, 255, 152, 0),
               child: ListTile(
                 leading: Image.asset('assets/images/vegePizza.png', width: 40),
                 title: const Text('Vegetable Pizza', style: itemStyle),
@@ -36,7 +36,7 @@ class MenuScreen extends StatelessWidget {
               Navigator.pushNamed(context, 'cheese');
             },
             child: Card(
-              color: const Color.fromARGB(255, 229, 224, 249),
+              color: const Color.fromARGB(255, 255, 152, 0),
               child: ListTile(
                 leading: Image.asset(
                   'assets/images/cheesePizza.png',
@@ -51,7 +51,7 @@ class MenuScreen extends StatelessWidget {
               Navigator.pushNamed(context, 'fries');
             },
             child: Card(
-              color: const Color.fromARGB(255, 255, 241, 204),
+              color: const Color.fromARGB(255, 255, 152, 0),
               child: ListTile(
                 leading: Image.asset('assets/images/fries.png', width: 40),
                 title: const Text('Box of Fries', style: itemStyle),
